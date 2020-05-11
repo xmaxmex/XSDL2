@@ -1,10 +1,16 @@
 # XSDL2
-XSDL2 - VB6 Wrapper for SDL2
+XSDL2 - Is a Win32 DLL Wrapper for SDL2 with exports in stdcall.
 
-# About VB6 Wrapper
+# Visual Basic 6
+## cSDL2
+Is a VB6 Class with Modules for this DLL usage, with Samples and some functions.
+
+# About the Wrapper
 The wrapper provides bindings for the following libraries:
 - SDL2 (2.0.12)
 - SDL2_image (2.0.5)
+
+*All Functions have a "x" on its begin, example: SDL_Init, became xSDL_Init and SDL_BlitSurface is xSDL_BlitSurface.*
 
 # Note
 Please, Note that XSDL2 will not provide every single SDL2 function. This is due to limitations in the VB6 language that would cause major conflicts with the native SDL2 library and its extensions.
