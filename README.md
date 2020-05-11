@@ -26,9 +26,12 @@ Please, Note that XSDL2 will not provide every single SDL2 function. This is due
 # Video
 | Header  | Function  | Wrapper  |
 | ------------ | ------------ | ------------ |
-| SDL.h  | SDL_Init  | y  |
-|   | SDL_Quit  | y  |
-|   | SDL_WasInit  | n  |
+| SDL_video.h  | SDL_CreateWindow  | y  |
+|   | SDL_CreateWindowAndRenderer  | y  |
+|   | SDL_DestroyWindow  | y  |
+|   | SDL_DisableScreenSaver  | y  |
+|   | SDL_EnableScreenSaver  | y  |
+|   | SDL_EnableScreenSaver  | y  |
 # Input Events
 | Header  | Function  | Wrapper  |
 | ------------ | ------------ | ------------ |
@@ -49,6 +52,10 @@ Please, Note that XSDL2 will not provide every single SDL2 function. This is due
 | Header  | Function  | Wrapper  |
 | ------------ | ------------ | ------------ |
 | SDL.h  | SDL_Init  | y  |
+# File Abstraction
+| Header  | Function  | Wrapper  |
+| ------------ | ------------ | ------------ |
+| SDL.h  | SDL_Init  | y  |
 # Shared Object Support
 | Header  | Function  | Wrapper  |
 | ------------ | ------------ | ------------ |
@@ -57,7 +64,11 @@ Please, Note that XSDL2 will not provide every single SDL2 function. This is due
 | Header  | Function  | Wrapper  |
 | ------------ | ------------ | ------------ |
 | SDL.h  | SDL_Init  | y  |
-# Additional Functionalyti
+# Power Management
+| Header  | Function  | Wrapper  |
+| ------------ | ------------ | ------------ |
+| SDL_power.h  | SDL_GetPowerInfo  | n  |
+# Additional Functionality
 | Header  | Function  | Wrapper  |
 | ------------ | ------------ | ------------ |
 | SDL.h  | SDL_Init  | y  |
