@@ -1,6 +1,15 @@
 # XSDL2
 XSDL2 - Is a Win32 DLL Wrapper for SDL2 with exports in stdcall.
 
+# Requires
+The DLL name is XSDL2.dll, and depends on SDL2.dll and the others DLL for the dependencies, like SDL2_image.dll and zlib1.dll.
+The SDL2.dll, is statically linked.
+
+# DLL Exports
+Use the tool dumpbin.exe form Visual Studio to see the exports, example:
+
+c:\tools\dumpbin.exe /exports c:\download\XSDL2.dll
+
 # Visual Basic 6
 ## cSDL2
 Is a VB6 Class with Modules for this DLL usage, with Samples and some functions.
