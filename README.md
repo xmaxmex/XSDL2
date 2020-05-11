@@ -9,6 +9,64 @@ The wrapper provides bindings for the following libraries:
 # Note
 Please, Note that XSDL2 will not provide every single SDL2 function. This is due to limitations in the VB6 language that would cause major conflicts with the native SDL2 library and its extensions.
 
+## Function Status 
+# Basics
+| Header  | Function  | Wrapper  |
+| ------------ | ------------ | ------------ |
+| SDL.h  | SDL_Init  | y  |
+|   | SDL_Quit  | y  |
+|   | SDL_WasInit  | n  |
+| SDL_hints.h  | SDL_GetHint  | n  |
+| SDL_error.h  | SDL_GetError  | y  |
+|   | SDL_ClearError  | y  |
+| SDL_log.h  |   |   |
+| SDL_assert.h  |   |   |
+| SDL_version.h  | SDL_GetVersion   | y  |
+|   | SDL_GetRevision  | y  |
+# Video
+| Header  | Function  | Wrapper  |
+| ------------ | ------------ | ------------ |
+| SDL.h  | SDL_Init  | y  |
+|   | SDL_Quit  | y  |
+|   | SDL_WasInit  | n  |
+# Input Events
+| Header  | Function  | Wrapper  |
+| ------------ | ------------ | ------------ |
+| SDL.h  | SDL_Init  | y  |
+# Force Feedback
+| Header  | Function  | Wrapper  |
+| ------------ | ------------ | ------------ |
+| SDL.h  | SDL_Init  | y  |
+# Audio
+| Header  | Function  | Wrapper  |
+| ------------ | ------------ | ------------ |
+| SDL.h  | SDL_Init  | y  |
+# Threads
+| Header  | Function  | Wrapper  |
+| ------------ | ------------ | ------------ |
+| SDL.h  | SDL_Init  | y  |
+# Timers
+| Header  | Function  | Wrapper  |
+| ------------ | ------------ | ------------ |
+| SDL.h  | SDL_Init  | y  |
+# Shared Object Support
+| Header  | Function  | Wrapper  |
+| ------------ | ------------ | ------------ |
+| SDL.h  | SDL_Init  | y  |
+# Platform and CPU Information
+| Header  | Function  | Wrapper  |
+| ------------ | ------------ | ------------ |
+| SDL.h  | SDL_Init  | y  |
+# Additional Functionalyti
+| Header  | Function  | Wrapper  |
+| ------------ | ------------ | ------------ |
+| SDL.h  | SDL_Init  | y  |
+# VB6 New Functions
+| DLL  | Function  | Info |
+| ------------ | ------------ | ------------ |
+| XSDL2.dll  | SDL_InitALL  | SDL_Init(SDL_INIT_EVERYTHING) |
+
+
 # SDL2 VB6 HelloWorld
 ```vb6
 Public SDL2 As New cSDL2
