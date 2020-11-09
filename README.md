@@ -30,8 +30,8 @@ Please, Note that XSDL2 will not provide every single SDL2 function. This is due
 | ------------ | ------------ | ------------ |
 | SDL.h  | SDL_Init  | y  |
 |   | SDL_Quit  | y  |
-|   | SDL_WasInit  | n  |
-| SDL_hints.h  | SDL_GetHint  | n  |
+|   | SDL_WasInit  | y  |
+| SDL_hints.h  | SDL_GetHint  | y  |
 | SDL_error.h  | SDL_GetError  | y  |
 |   | SDL_ClearError  | y  |
 | SDL_log.h  |   |   |
@@ -48,7 +48,7 @@ Please, Note that XSDL2 will not provide every single SDL2 function. This is due
 |   | SDL_EnableScreenSaver  | y  |
 |   | SDL_EnableScreenSaver  | y  |
 | SDL_render.h | | y |
-|   | SDL_ComposeCustomBlendMode | n |
+|   | SDL_ComposeCustomBlendMode | y |
 |   | SDL_CreateRenderer | y |
 |   | SDL_CreateSoftwareRenderer | y |
 |   | SDL_CreateTexture | y |
@@ -63,36 +63,36 @@ Please, Note that XSDL2 will not provide every single SDL2 function. This is due
 |   | SDL_GetRenderDrawColor | n |
 |   | SDL_GetRenderDriverInfo | n |
 |   | SDL_GetRenderTarget | n |
-|   | SDL_GetRenderer | n |
-|   | SDL_GetRendererInfo | n |
-|   | SDL_GetRendererOutputSize | n |
+|   | SDL_GetRenderer | y |
+|   | SDL_GetRendererInfo | y |
+|   | SDL_GetRendererOutputSize | y |
 |   | SDL_GetTextureAlphaMod | n |
 |   | SDL_GetTextureBlendMode | n |
 |   | SDL_GetTextureColorMod | n |
 |   | SDL_LockTexture | n |
-|   | SDL_QueryTexture | n |
+|   | SDL_QueryTexture | y |
 |   | SDL_RenderClear | y |
 |   | SDL_RenderCopy | y |
 |   | SDL_RenderCopyEx | y |
 |   | SDL_RenderDrawLine | y |
-|   | SDL_RenderDrawLines | n |
-|   | SDL_RenderDrawPoint | n |
-|   | SDL_RenderDrawPoints | n |
+|   | SDL_RenderDrawLines | y |
+|   | SDL_RenderDrawPoint | y |
+|   | SDL_RenderDrawPoints | y |
 |   | SDL_RenderDrawRect | y |
 |   | SDL_RenderDrawRects | y |
 |   | SDL_RenderFillRect | y |
 |   | SDL_RenderFillRects | y |
-|   | SDL_RenderGetClipRect | n |
-|   | SDL_RenderGetIntegerScale | n |
-|   | SDL_RenderGetLogicalSize | n |
-|   | SDL_RenderGetScale | n |
-|   | SDL_RenderGetViewport | n |
+|   | SDL_RenderGetClipRect | y |
+|   | SDL_RenderGetIntegerScale | y |
+|   | SDL_RenderGetLogicalSize | y |
+|   | SDL_RenderGetScale | y |
+|   | SDL_RenderGetViewport | y |
 |   | SDL_RenderIsClipEnabled | n |
 |   | SDL_RenderPresent | y |
-|   | SDL_RenderReadPixels | n |
-|   | SDL_RenderSetClipRect | n |
-|   | SDL_RenderSetIntegerScale | n |
-|   | SDL_RenderSetLogicalSize | n |
+|   | SDL_RenderReadPixels | y |
+|   | SDL_RenderSetClipRect | y |
+|   | SDL_RenderSetIntegerScale | y |
+|   | SDL_RenderSetLogicalSize | y |
 |   | SDL_RenderSetScale | n |
 |   | SDL_RenderSetViewport | n |
 |   | SDL_RenderTargetSupported | n |
