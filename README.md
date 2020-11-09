@@ -22,7 +22,7 @@ The wrapper provides bindings for the following libraries:
 *All Functions have a "x" on its begin, example: SDL_Init, became xSDL_Init and SDL_BlitSurface is xSDL_BlitSurface.*
 
 # Note
-Please, Note that XSDL2 will not provide every single SDL2 function. This is due to limitations in the VB6 language that would cause major conflicts with the native SDL2 library and its extensions.
+Please, Note that XSDL2 will not provide every single SDL2 function. Functions for Android, iOS... will not be exported. This is due to limitations in the VB6 Win32 language that would cause major conflicts with the native SDL2 library and its extensions.
 
 ## Function Status 
 # Basics
